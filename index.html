@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Barbearia | Ricardo Raphael</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./img/logo-mr-barber.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <a href="#principal">
+            <img class="logo-img" src="./img/logo-mr-barber.png" alt="logo" />
+        </a>
+
+        <nav>
+            <ul>
+                <a href="#principal">
+                    <li>HOME</li>
+                </a>
+                <a href="#secao-sobre">
+                    <li>SOBRE</li>
+                </a>
+                <a href="#secao-servicos">
+                    <li>SERVIÇOS</li>
+                </a>
+                <a href="#secao-blog">
+                    <li>BLOG</li>
+                </a>
+                <a href="#secao-clientes">
+                    <li>CLIENTES</li>
+                </a>
+                <a href="#secao-contatos">
+                    <li>CONTATO</li>
+                </a>
+                <a href="#" onclick="mostrarModal()">
+                    <li>ENDEREÇO</li>
+                </a>
+            </ul>
+        </nav>
+        <div id="botao-menu" class="botao-abrir-menu">
+            <i id="icone" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="menu-mobile">
+            <nav class="mobile-nav">
+                <ul>
+                    <a class="link-menu-mobile" href="#principal">
+                        <li>HOME</li>
+                    </a>
+                    <a class="link-menu-mobile" href="#secao-sobre">
+                        <li>SOBRE</li>
+                    </a>
+                    <a class="link-menu-mobile" href="#secao-servicos">
+                        <li>SERVIÇOS</li>
+                    </a>
+                    <a class="link-menu-mobile" href="#secao-blog">
+                        <li>BLOG</li>
+                    </a>
+                    <a class="link-menu-mobile" href="#secao-clientes">
+                        <li>CLIENTES</li>
+                    </a>
+                    <a class="link-menu-mobile" href="#secao-contatos">
+                        <li>CONTATO</li>
+                    </a>
+                    <a class="link-menu-mobile" href="#" onclick="mostrarModal()">
+                        <li>ENDEREÇO</li>
+                    </a>
+                </ul>
+            </nav>
+            <img src="./img/logo-mr-barber.png" alt="logo"/>
+        </div>
+    </header>
+
+    <div class="mascara-menu-mobile"></div>
+
+    <section class="principal" id="principal">
+        <div class="conteudo-texto">
+            <h1>MUITO MAIS QUE UMA <br><span>BARBEARIA</span></h1>
+            <a class="link-botao" href="#secao-servicos">
+                <button class="button">CONFIRA NOSSOS SERVIÇOS →</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="secao-sobre" id="secao-sobre">
+        <div class="barra-titulo">
+            ESCOLHA O SEU ESTILO QUE A GENTE CAPRICHA!
+            <img class="logo-tesoura" src="./img/tesoura_vetor.png" alt="tesoura-img" />
+        </div>
+
+        <div class="sobre">
+            <div class="img-sobre">
+                <img src="./img/barber-chair.jpg" />
+            </div>
+
+            <div class="conteudo-sobre">
+                <h2 class="titulo">SOBRE NÓS</h2>
+                <p>
+                    Desde 2020 atuamos no ramo de estética e beleza oferecendo
+                    com qualidade os melhores serviços de corte, barba e hidratação,
+                    dia do noivo, sobrancelha, progressiva entre outros serviços realizados
+                    por profissionais altamente qualificados na área para atender da melhor
+                    forma possível, nossos clientes em um ambiente aconchegante com um
+                    toque de estilo retro, com a nossa experiência de mercado, utilizamos
+                    também sempre produtos de ponta, ferramentas e técnicas para
+                    satisfazer os nossos clientes independente da ocasião.
+                </p>
+                <p>
+                    Venha agendar uma atendimento conosco e ser atendimento pela nossa equipe de
+                    profissionais, aqui em nossa barbearia também vendemos produtos para você
+                    cuidar dos seus cabelos e da sua barba. Tudo para trazer a melhor experiência
+                    em cuidados masculino. Agende seu horário e venha conhecer nosso espaço.
+                    Escolha seu estilo que a gente capricha!
+                </p>
+
+                <a class="link-botao"
+                    href="https://wa.me/5515991535151?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento."
+                    target="_blank">
+                    <button class="button">SAIBA MAIS →</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-servicos" id="secao-servicos">
+        <h2 class="secao-titulo">NOSSOS SERVIÇOS</h2>
+        <div class="cards-container">
+            <div class="grade-cards">
+                <div class="card banner efeito-cursor">
+                    <img class="tesoura" src="./img/tesoura_vetor_orange.png" alt="tesoura-img" />
+                    <h3 class="servicos">
+                        Corte
+                    </h3>
+                    <p class="preco"><span>R$</span>40</p>
+                </div>
+                <div class="card banner efeito-cursor">
+                    <img class="razor" src="./img/navalha_barbearia.png" alt="navalha-img" />
+                    <h3 class="servicos">
+                        Barba
+                    </h3>
+                    <p class="preco"><span>R$</span>30</p>
+                </div>
+                <div class="card banner efeito-cursor">
+                    <img class="pinca" src="./img/pinca.png" />
+                    <h3 class="servicos">
+                        Sobrancelha
+                    </h3>
+                    <p class="preco"><span>R$</span>15</p>
+                </div>
+                <div class="card banner efeito-cursor">
+                    <img class="tie" src="./img/gravata_vetor.png" />
+                    <h3 class="servicos">
+                        Dia do Noivo
+                    </h3>
+                    <p class="preco"><span>R$</span>60</p>
+                </div>
+                <div class="card banner efeito-cursor">
+                    <img class="lotion" src="./img/hidratante_vetor.png" />
+                    <h3 class="servicos">
+                        Progressiva
+                    </h3>
+                    <p class="preco"><span>R$</span>50</p>
+                </div>
+                <div class="card banner efeito-cursor">
+                    <img class="shaver" src="./img/shaver.png" />
+                    <h3 class="servicos">
+                        Máquina
+                    </h3>
+                    <p class="preco"><span>R$</span>30</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="link-botao"
+            href="https://wa.me/5515991535151?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento."
+            target="_blank">
+            <button class="button">AGENDE SEU HORÁRIO →</button>
+        </a>
+    </section>
+
+    <section class="secao-blog" id="secao-blog">
+        <h2 class="secao-titulo">BLOG</h2>
+        <h3>Confira as dicas que temos para você!</h3>
+        <div class="cards-container">
+            <div class="grade-cards">
+                <div class="card-blog">
+                    <img class="blog-img"
+                        src="./img/stock-photo-happy-bearded-man-using-mobile-phone-blurred-barbershop.jpg">
+                    <div class="tag">BARBA</div>
+                    <div class="blog-info">
+                        <p class="blog-texto">
+                            Qual o melhor hidratante usar para
+                            a barba crescer saudável?
+                        </p>
+
+                        <a href="./blog1.html" target="_blank">
+                            <div class="link-blog">SAIBA MAIS</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <img class="blog-img" src="./img/homem-penteando-barba.jpg">
+                    <div class="tag">BARBA</div>
+                    <div class="blog-info">
+                        <p class="blog-texto">
+                            Os 5 produtos essenciais para a barba.
+                        </p>
+
+                        <a href="./blog2.html" target="_blank">
+                            <div class="link-blog">SAIBA MAIS</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <img class="blog-img" src="./img/corte-cabelo.jpg">
+                    <div class="tag">CABELO</div>
+                    <div class="blog-info">
+                        <p class="blog-texto">
+                            Dicas e cuidados para cada tipo de cabelo masculino.
+                        </p>
+
+                        <a href="./blog3.html" target="_blank">
+                            <div class="link-blog">SAIBA MAIS</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-clientes" id="secao-clientes">
+        <h2 class="secao-titulo">NOSSOS CLIENTES</h2>
+        <div class="cards-container">
+            <div class="grade-cards">
+                <div class="card-review">
+                    <img class="quote-icon" src="./img/yellow-quote.png" alt="comentario">
+                    <p>
+                        Fui muito bem atendido pelos profissionais, muito simpáticos, gostei do ambiente
+                        que traz um clima bem retro e descontraído, tive uma experiência muito agradável
+                        com meu novo visual de corte de cabelo e barba. Super indico!
+                    </p>
+                    <img class="user" src="./img/pic-1.png" alt="foto-cliente" />
+                    <h3>João da Silva</h3>
+                    <div class="stars">
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30"
+                            src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+                            alt="star-half-empty" />
+                    </div>
+                </div>
+                <div class="card-review">
+                    <img class="quote-icon" src="./img/yellow-quote.png" alt="comentario">
+                    <p>
+                        Para mim foi uma ótima experiência, pude mudar meu visual para atuar no meu trabalho como modelo
+                        e ator, estou muito satisfeito pelo atendimento, o ambiente é muito agradável e realmente sabem
+                        conquistar os clientes. Super indico o local e voltarei mais vezes.
+                    </p>
+                    <img class="user" src="./img/pic-2.png" alt="foto-cliente" />
+                    <h3>Luigi Bros</h3>
+                    <div class="stars">
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                    </div>
+                </div>
+                <div class="card-review">
+                    <img class="quote-icon" src="./img/yellow-quote.png" alt="comentario">
+                    <p>
+                        Ambiente muito organizado, ótimo atendimento pela parte da equipe, sempre indico para quem
+                        conheço, os profissionais explicam sobre cada produto que usam, ás vezes até compro alguns
+                        produtos
+                        que vendem. Voltarei mais vezes.
+                    </p>
+                    <img class="user" src="./img/pic-3.png" alt="foto-cliente" />
+                    <h3>Régis de Souza</h3>
+                    <div class="stars">
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                            alt="star--v1" />
+                        <img width="30" height="30"
+                            src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+                            alt="star-half-empty" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-contatos" id="secao-contatos">
+        <h2 class="secao-titulo">CONTATO</h2>
+        <div class="horario-info">
+            <h3 class="horario-atendimento">Horário de atendimento:</h3>
+            <p>Seg à Sáb: das 10h às 20h - Dom: das 12h às 19h</p>
+        </div>
+        <div class="botoes-contato">
+            <a class="botao-contato whatsapp efeito-cursor"
+                href="https://wa.me/5515991535151?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento."
+                target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Whatsapp</span>
+            </a>
+            <a class="botao-contato email efeito-cursor" href="mailto:riraphaelusa@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a class="botao-contato instagram efeito-cursor" href="https://www.instagram.com/ricardoapraphael/"
+                target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a class="botao-contato facebook efeito-cursor"
+                href="https://www.facebook.com/ricardo.raphael.75?locale=pt_BR" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook</span>
+            </a>
+        </div>
+    </section>
+
+    <div class="modal">
+        <h2 class="secao-titulo">NOSSO ENDEREÇO</h2>
+        <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Av. Dr. Afonso Vergueiro, 823 - Centro, Sorocaba - SP
+        </p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0027134211377!2d-47.463449923761694!3d-23.49641175921112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58aa52f103a81%3A0x8deaafddceff2255!2sP%C3%A1tio%20Cian%C3%AA%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1747416689914!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <div class="mascara-modal" onclick="ocultarModal()"></div>
+
+    <footer>
+        <img class="logo-img" src="./img/logo-mr-barber.png" alt="logo" />
+        <span class="copyright">© Copyright 2025 - Todos os direitos reservados</span>
+        <span class="copyright2">Desenvolvido por: Ricardo Raphael</span>
+    </footer>
+
+    <div class="logo-mensagem">
+        <a href="https://wa.me/5515991535151?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento."
+            target="_blank">
+            <img class="link-whatsapp" src="./img/whatsapp-icon.png" />
+        </a>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+<script src="https://kit.fontawesome.com/5a5a4d1721.js" crossorigin="anonymous"></script>
+
+</html>

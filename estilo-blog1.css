@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0a0a0a;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #555;
+    z-index: 9;
+}
+
+header .logo-img {
+    width: 65px;
+    height: auto;
+    cursor: pointer;
+}
+
+section {
+    padding: 100px 0;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+section .conteudo {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #555;
+    background: #161616;
+    font-family: 'Inter', sans-serif;
+}
+
+section .conteudo .capa-img {
+    flex: 1 1 450px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+section .conteudo .capa-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+section .conteudo .capa-img .tag {
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+section .conteudo h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+section .conteudo .info {
+    padding: 15px 25px 30px;
+}
+
+section .conteudo .info p {
+    color: #bbb;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+section .conteudo .info h2 {
+    margin-bottom: 25px;
+}
+
+section .conteudo .cards-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+section .conteudo .cards-container .grade-cards {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(300px));
+    gap: 30px;
+}
+
+section .conteudo .cards-container .grade-cards .card-produtos {
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+section .conteudo .cards-container .grade-cards .card-produtos img {
+    object-fit: contain;
+    width: 100%;
+}
+
+section .conteudo .cards-container .grade-cards .card-produtos .info-produto {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: #161616;
+    border-top: 1px solid #555;
+}
+
+footer .logo-img {
+    width: 90px;
+    height: auto;
+}
+
+@media screen and (max-width: 1040px) and (orientation: landscape) {
+    header {
+        height: 15vh;
+    }
+
+    header .logo-img {
+        width: 52px;
+    }
+}
+
+@media screen and (max-width: 896px) and (orientation: landscape) {
+    header .logo-img {
+        width: 45px;
+    }
+}
