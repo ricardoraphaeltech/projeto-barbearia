@@ -632,8 +632,8 @@ footer .logo-img {
         z-index: 9;
         overflow: hidden;
         padding: 20px 0;
-        gap: 90px;
         transition: .3s linear;
+        gap: 90px;
     }
 
     header .menu-mobile .mobile-nav {
@@ -762,5 +762,11 @@ footer .logo-img {
 @media screen and (max-width: 896px) and (orientation: landscape) {
     header .logo-img {
         width: 45px;
+    }
+}
+
+@media screen and (max-width: 852px) and (orientation: landscape) {
+    header .menu-mobile .mobile-nav ul {
+        gap: 10px;
     }
 }
