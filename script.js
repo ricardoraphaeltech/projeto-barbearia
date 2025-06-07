@@ -75,17 +75,17 @@ mascaraMenuMobile.addEventListener('click', function() {
     }
 })
 
-// Adiciona um evento de clique na lista de itens do menu mobile com forEach
-linkMenuMobile.forEach((linkMenuMobile) => {
-    linkMenuMobile.addEventListener('click', function() {
-        if(icone.classList.contains('fa-xmark')) {
-            icone.classList.remove('fa-xmark')
-            icone.classList.add('fa-bars')
-            menuMobile.style.width = '0'
-            mascaraMenuMobile.style.visibility = 'hidden'
-        }    
-    })
-})
+// // Adiciona um evento de clique na lista de itens do menu mobile com forEach
+// linkMenuMobile.forEach((linkMenuMobile) => {
+//     linkMenuMobile.addEventListener('click', function() {
+//         if(icone.classList.contains('fa-xmark')) {
+//             icone.classList.remove('fa-xmark')
+//             icone.classList.add('fa-bars')
+//             menuMobile.style.width = '0'
+//             mascaraMenuMobile.style.visibility = 'hidden'
+//         }    
+//     })
+// })
 
 // Adiciona um evento de clique na logo-img
 logoImg.addEventListener('click', function() {
