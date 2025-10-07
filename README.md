@@ -60,7 +60,7 @@
 
 <img style="border-radius: 50%;" src="./img/ricardo.jpg" width="100px;" alt="Ricardo Raphael"/>
 <br>
-<sub><b>Ricardo Raphael</b></sub>
+<sub><b>Ricardo Raphael</b>✨</sub>
 
 ---
 
