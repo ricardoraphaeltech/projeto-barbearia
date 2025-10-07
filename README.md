@@ -23,3 +23,11 @@
 
 ## 🎨 Imagens do Projeto
 
+### Web
+
+<div align="center">
+  <img alt="visualizacao-desktop" src="./img/Desktop.jpeg" width="450px"/>
+</div>
+
+### Mobile
+
