@@ -31,3 +31,37 @@
 
 ### Mobile
 
+<div align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  	<img alt="visualizacao-mobile" src="./img/iPad-Air-5- home.png" width="400px">
+  	<img alt="visualizacao-mobile" src="./img/iPad-Air-5.png" width="400px">
+</div>
+<div align="center">
+	<img alt="visualizacao-mobile" src="./img/iPad-Air-5 - servicos.png" width="550px">
+</div>
+
+---
+
+## 🛠 Tecnologias
+
+<h3>As seguintes tecnologias foram utilizadas no projeto:</h3>
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="32" alt="html5 logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="32" alt="css3 logo"  />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="javascript logo"  />
+  <img width="10" />
+</div>
+
+---
+
+## 👨‍💻​ Autor
+
+<img style="border-radius: 50%;" src="./img/ricardo.jpg" width="100px;" alt="Ricardo Raphael"/>
+<br>
+<sub><b>Ricardo Raphael</b></sub>
+
+---
+
+<p>Feito com ❤️ por Ricardo Raphael 👋🏽 [Entre em contato!](https://www.linkedin.com/in/ricardoapraphael/)</p>
