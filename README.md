@@ -58,7 +58,7 @@
 
 ## 👨‍💻​ Autor
 
-<img style="border-radius: 50%;" src="./img/ricardo.jpg" width="100px;" alt="Ricardo Raphael"/>
+<img style="border-radius: 20px;" src="./img/ricardo.jpg" width="100;" alt="Ricardo Raphael"/>
 <br>
 <sub><b>Ricardo Raphael</b>✨</sub>
 
