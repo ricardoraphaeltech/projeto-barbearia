@@ -18,6 +18,7 @@
   podendo também acessar o menu de navegação com Javascript. O site apresenta o sobre da empresa, os serviços prestados, blogs, depoimentos de clientes, links de 
   contatos e o mapa com o endereço do local.
 </p>
+<p>Acesse o projeto pelo <a href="https://ricardoraphaeltech.github.io/projeto-barbearia/">Link</a></p>
 
 ---
 
